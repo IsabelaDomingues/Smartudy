@@ -1,3 +1,40 @@
 body{
 	background-color: black;
 }
+/*
+Apenas mostrar em mobile
+*/
+.mobileShow {display: none;}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ 
+	.mobileShow {display: inline;}
+}
+
+/*
+Não mostrar em mobile
+*/
+.mobileHide { display: inline; }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+	.mobileHide { display: none;}
+}
+
+/*
+Centralizar
+*/
+.centerLogin {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+
+}
+
+/*
+Tamanho do logo em páginas diferentes da home
+*/
+.smallLogoSize{
+	height: 55px;
+}
