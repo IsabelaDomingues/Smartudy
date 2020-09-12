@@ -33,3 +33,14 @@ $(document).ready(function(){
 
 //Menu lateral mobile
  $(".button-collapse").sideNav();
+
+//Tooltip para botões
+ $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
+        
+//Modal
+ $(document).ready(function(){
+    $('.modal').modal();
+  });
+

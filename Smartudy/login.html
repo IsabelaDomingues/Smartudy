@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edgde">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favic.ico">
+	<title>SMARTUDY: Login</title>
+	<link href="css/icon.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper black">
+
+				<!-- Logotipo-->
+				<a href="./index.html" class="brand-logo" class="right hide-on-med-and-down"><img src="img/STlogo.png" class="smallLogoSize"></a>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+				<!-- Menu lateral mobile -->
+				<ul id="slide-out" class="side-nav">
+					<li><a href="./index.html"><i class="material-icons">home</i>Home</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Inicio conteudo principal -->
+	<main>
+
+		<!-- Campos para login centralizados -->
+		<div class="centerLogin">
+			<div class="row">
+				<div class="input-field col s12">
+					<input class="white-text" id="email" type="email" class="validate">
+					<label class="white-text" for="email">E-mail</label>
+				</div>
+				<div class="input-field col s12">
+					<input id="password" type="password" class="validate" >
+					<label class="white-text" for="password">Senha</label>
+				</div>
+				<div class="right-align">
+					<a class="waves-effect waves-light green btn"><i class="material-icons right">mood_bad</i>Esqueci a senha</a> 
+					<a class="waves-effect waves-light green btn " ><i class="material-icons right">local_library</i>Logar</a>   
+				</div> 
+			</div>
+		</div>
+	</main>
+
+	<!--Botão Fale conosco -->
+	<div class="fixed-action-btn">
+		<a class="btn-floating btn-large tooltipped modal-trigger" data-target="modal1" data-tooltip="Fale conosco" data-position="left">
+			<i class="large material-icons blue darken-3">message</i>
+		</a>
+	</div>
+
+	<!-- Modal Fale conosco -->
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4>Deixe-nos uma mensagem</h4>
+			<p>Responderemos assim que possível!</p>
+			<div class="input-field col s12">
+				<input id="email" type="email" class="validate">
+				<label for="email">E-mail</label>
+			</div>
+			<div class="input-field col s12">
+				<textarea id="textarea1" class="materialize-textarea"></textarea>
+				<label for="textarea1">Escreva sua mensagem</label>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Enviar</a>
+		</div>
+	</div>
+	
+	<!-- Inicio rodapé -->
+	<footer>
+		<div class="footer-copyright black">
+			<div class="container grey-text">
+				Smartudy Inc.
+				© 2020 Copyright
+			</div>
+		</div>
+	</footer>
+	<!-- Fim rodapé -->
+
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
